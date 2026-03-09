@@ -3,9 +3,15 @@ target/
 dbt_packages/
 logs/
 Data/
+Screenshots/
+Data Discovery/
 .xlsx
 .pptx
 .pdf
-Screenshots/
-Data Discovery/
 .env
+**/.env
+.DS_Store
+.ipynb_checkpoints/
+output/*.db*
+*.pyc
+__pycache__/
