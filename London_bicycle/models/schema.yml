@@ -4,15 +4,16 @@ models:
   - name: fact_trips
     description: "Fact table for bike trips."
     columns:
-      - name: trip_id
-        description: "The primary key for this table"
+      - name: rental_id
+        description: "The primary key for this fact_trips table"
         tests:
           - unique
           - not_null
 
       - name: bike_id
-        description: "The foreign key to the store dimension table"
+        description: "The foreign key to the dim_bike dimension table"
         tests:
+          - not_null
           - relationships:
               # Uncomment the line 'arguments:' to resolve
               # MissingArgumentsPropertyInGenericTestDeprecation Warnings

@@ -1,8 +1,8 @@
 version: 1
 
 sources:
-  - name: austin_bikeshare
+  - name: london_bicycles
     database: bigquery-public-data
     tables:
-      - name: bikeshare_trips
-      - name: bikeshare_stations
+      - name: cycle_hire
+      - name: cycle_stations

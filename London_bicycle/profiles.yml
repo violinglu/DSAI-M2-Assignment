@@ -1,10 +1,10 @@
 austin_bikeshare_demo:
   outputs:
     dev:
-      dataset: austin_bikeshare_demo
+      dataset: london_bicycles
       job_execution_timeout_seconds: 300
       job_retries: 1
-      location: US
+      location: EU
       method: oauth
       priority: interactive
       project: keen-philosophy-488314-a6
@@ -17,7 +17,7 @@ my_first_dbt:
       dataset: newer
       job_execution_timeout_seconds: 300
       job_retries: 1
-      location: US
+      location: EU
       method: oauth
       priority: interactive
       project: keen-philosophy-488314-a6
