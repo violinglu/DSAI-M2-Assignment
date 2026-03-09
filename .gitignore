@@ -1,0 +1,17 @@
+
+target/
+dbt_packages/
+logs/
+Data/
+Screenshots/
+Data Discovery/
+.xlsx
+.pptx
+.pdf
+.env
+**/.env
+.DS_Store
+.ipynb_checkpoints/
+output/*.db*
+*.pyc
+__pycache__/
